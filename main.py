@@ -45,7 +45,7 @@ angel = [random.randint(-speed, speed), random.randint(-speed, speed)]
 
 running = True
 while running:
-    screen.blit(background, (0, 0))  # Малюємо фон
+    screen.blit(background, (0, 0))
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
